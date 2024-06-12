@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: ngocongbang/api
   pullPolicy: IfNotPresent
-  tag: "$GITHUB_REF_NAME"
+  tag: "v8"
 
 service:
   type: NodePort
